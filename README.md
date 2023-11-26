@@ -1,13 +1,6 @@
 # Latex
 Main codes for reports.
- "cell_type": "code",
-   "execution_count": 1,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
+   "source": [
 For tables:
 \begin{table}[h!]
  \centering
@@ -67,5 +60,4 @@ For bilbiography:
   publisher={NNN}
 }
  ]
-    }
-   ],
+ 
