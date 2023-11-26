@@ -12,20 +12,20 @@ Main codes for reports.
    ],
    "source": [
     "text": [For tables:
-\begin{table}[h!]
- \centering
-\caption{A multi-column table within one column}
- \label{tab:multicolumntable}
-\begin{tabular}{|l|l|l|} % Example with three columns, adjust as needed
-        \hline
-        Column 1 Header & Column 2 Header & Column 3 Header \\ % Table headers
-        \hline
-        Row 1, Col 1 & Row 1, Col 2 & Row 1, Col 3 \\ % Table content
-        Row 2, Col 1 & Row 2, Col 2 & Row 2, Col 3 \\
-        % Add more rows as needed
-        \hline
-    \end{tabular}
-\end{table}
+"\begin{table}[h!]"
+ "\centering"
+"\caption{A multi-column table within one column}"   
+ "\label{tab:multicolumntable}"
+"\begin{tabular}{|l|l|l|} % Example with three columns, adjust as needed
+        "\hline
+        "Column 1 Header & Column 2 Header & Column 3 Header \\ % Table headers
+        "\hline
+        "Row 1, Col 1 & Row 1, Col 2 & Row 1, Col 3 \\ % Table content
+        "Row 2, Col 1 & Row 2, Col 2 & Row 2, Col 3 \\
+        "#Add more rows as needed"
+        "\hline"
+    "\end{tabular}"
+"\end{table}"
 
 
 For images: 
@@ -69,7 +69,5 @@ For bilbiography:
   year={0000},
   publisher={NNN}
 }
- ]
- ]
- }
+ 
 
