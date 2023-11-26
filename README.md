@@ -1,7 +1,17 @@
 # Latex
 Main codes for reports.
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     
+    }
+   ],
    "source": [
-For tables:
+    "text": [For tables:
 \begin{table}[h!]
  \centering
 \caption{A multi-column table within one column}
@@ -60,4 +70,6 @@ For bilbiography:
   publisher={NNN}
 }
  ]
- 
+ ]
+ }
+
