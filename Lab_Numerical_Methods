@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{letterpaper, margin=0.8in}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{url}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{18pt}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{float}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+
+\title{
+    \centering
+    \vspace*{2cm}
+    {\Huge \textbf{Numerical Methods}\par}
+    \vspace{2cm}
+    {\Large Practice 1 : Roots of functions\par}
+    \vspace{2cm}
+    {\Large Rodríguez Emily\par}
+    {\Large Ríos Giandree \par}
+    {\Large Silva Alejandro\par}
+    \vfill
+}
+
+
+\begin{document}
+\maketitle
+\newpage
+\section{Bisection Method}
+\subsection{Description}
+ Let $f(x)$ be a continuous function in the closed interval [a,b] such that $f(a)f(b)<0$, then because of the \textit{Intermediate Value Theorem}
+\subsection{Algorithm}
+gdfgdfagfdg
+\subsection{Convergence criteria}f
+sdfFFSD
+\subsection{Program}
+\subsection{Results}
+\subsection{Comments}
+
+
+\section{Secant Method}
+\subsection{Description}
+\subsection{Algorithm}
+\subsection{Convergence criteria}
+\subsection{Program}
+\subsection{Results}
+\subsection{Comments}  
+
+
+\section{Newton-Raphson's Method}
+\subsection{Description}
+\subsection{Algorithm}
+\subsection{Convergence criteria}
+\subsection{Program}
+\subsection{Results}
+\subsection{Comments}
+
+
+\section{Fixed Point Iterarion}
+\subsection{Description}
+\subsection{Algorithm}
+\subsection{Convergence criteria}
+\subsection{Program}
+\subsection{Results}
+\subsection{Comments}
+
+%Useful packages for Octave code%
+      %for figures%
+%\begin{lstlisting}
+%for i = 1:12 %This is matlab code 
+%X = 1+i;
+%end
+%\end{lstlisting}
+%\begin{figure}[H]
+%  \caption{This is an image}
+%  \centering
+%    \includegraphics[width = 0.5\textwidth]{HOUGH1}
+%    \label{fig:example} %
+
+
+    %for code%
+%The following is a block using the \verb|lstlisting| environment.
+%\begin{lstlisting}
+%for i = 1:3
+%	if i >= 5                    % literate programming replacement
+%		disp('cool');           % comment with some §\mcommentfont\LaTeX in % %    it: $\mcommentfont\pi x^2$§
+%	end
+%	[~,ind] = max(vec);
+%	x_last = x(1,end);
+%	v(end);
+%	really really long really really long really really long really really long really really long line % blaaaaaaaa
+%end
+%\end{lstlisting}    
+
+
+
+\end{document}
